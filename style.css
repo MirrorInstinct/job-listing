@@ -1,0 +1,10 @@
+
+
+#job-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#job-list > img {
+    width: 10%;
+}
