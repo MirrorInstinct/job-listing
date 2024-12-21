@@ -1,10 +1,41 @@
 
 
-#job-list {
+/* #job-list {
     display: flex;
     flex-direction: column;
 }
 
 #job-list > img {
     width: 10%;
+} */
+
+.job-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: goldenrod;
+}
+
+.job-div img {
+    max-width: 70px;
+}
+
+
+/*this needs to go away, its causing alignment to act up*/
+.job-div h3, h4 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.job-div > p {
+    color: red;
+}
+
+.job-notes {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 15px;
 }
